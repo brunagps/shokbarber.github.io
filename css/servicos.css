@@ -1,0 +1,197 @@
+.carrossel{
+	width: 1000px;
+	height: 440px;
+	margin: auto;
+	margin-top: 60px;
+	background-color: #000;
+}
+
+ul#album-fotos{
+	width: 900px;
+	margin: 0 auto;
+	margin-left: 25px;
+	padding: 50px;
+	overflow: hidden;
+	list-style: none;
+}
+
+ul#album-fotos li{
+	float:left;
+	width: 150px;
+	height: 150px;
+	margin: 10px;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+	-webkit-transition: all .4s ease-in;
+}
+
+ul#album-fotos li span{
+	opacity: 0;
+	color: #fff;
+	text-shadow: 1px 1px 1px #000000;
+	background-color: rgba(0,0,0,.6);
+	font-size: 8pt;
+	line-height: 280px;
+	padding: 5px;
+}
+
+ul#album-fotos li:hover{
+	-webkit-transform: scale(1.5);
+}
+
+ul#album-fotos li:hover span{
+	opacity: 1;
+}
+
+ul#album-fotos li#foto01{
+	background: url('../imagens/nud.jpg') no-repeat;	
+	background-position: 50% 50%;
+	background-size: 150px 150px;
+}
+
+ul#album-fotos li#foto01:hover{
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto02{
+	background: url('../imagens/luzes.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 150px 150px;
+}
+
+ul#album-fotos li#foto02:hover{
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto03{
+	background: url('../imagens/relax.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 150px 150px;
+}
+
+ul#album-fotos li#foto03:hover{
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto04{
+	background: url('../imagens/prog.jpg') no-repeat;	
+	background-position: 50% 50%;
+	background-size: 150px 150px;
+}
+
+ul#album-fotos li#foto04:hover{
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto05{
+	background: url('../imagens/bpig.jpg') no-repeat;	
+	background-position: 50% 50%;
+	background-size: 150px 150px;
+}
+
+ul#album-fotos li#foto05:hover{
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto06{
+	background: url('../imagens/barba.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 150px 150px;
+}
+
+ul#album-fotos li#foto06:hover{
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto07{
+	background: url('../imagens/cbarba.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 150px 150px;
+}
+
+ul#album-fotos li#foto07:hover{
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto08{
+	background: url('../imagens/cpig.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 150px 150px;
+}
+
+ul#album-fotos li#foto08:hover{
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto09{
+	background: url('../imagens/nav.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 150px 150px;
+}
+
+ul#album-fotos li#foto09:hover{
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto10{
+	background: url('../imagens/corte.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 150px 150px;
+}
+
+ul#album-fotos li#foto10:hover{
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+
+@media (min-width: 400px) and (max-width: 850px ){
+	#servicos{
+		width: 100%;
+	}
+	
+	.carrossel{
+		width: 300px;
+		height: 640px;
+		margin: auto;
+		margin-top: 40px;
+		background-color: #000;
+	}
+	
+	ul#album-fotos{
+		width: 100%;
+		margin: 0 auto;
+		margin-left: 00px;
+		padding: 30px;
+		overflow: hidden;
+		list-style: none;
+	}
+	
+	ul#album-fotos li{
+		float:left;
+		width: 100px;
+		height: 100px;
+		margin: 10px;
+		box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+		-webkit-transition: all .4s ease-in;
+	}
+
+	ul#album-fotos li span{
+		opacity: 0;
+		color: #fff;
+		text-shadow: 1px 1px 1px #000000;
+		background-color: rgba(0,0,0,.6);
+		font-size: 8pt;
+		line-height: 30px;
+		padding: 5px;
+	}
+
+}

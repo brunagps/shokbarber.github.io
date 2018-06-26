@@ -1,0 +1,157 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@font-face{
+	font-family: 'FonteTitulo';
+	src: url("../fontes/Elegant.ttf");
+}
+
+h1{
+	color: #fff;
+	text-align: center;
+	font-size: 40pt;
+	padding-top: 40px;
+	font-family: 'FonteTitulo';
+}
+
+hr{
+	border: 0;
+	background:#cfb53b;
+	height: 1px; 
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75));
+	max-width:100%;  
+	width: 300px;
+}
+
+header{
+	width: 100%;
+	margin:0;
+	top:0;
+}
+
+header nav{
+	width: 100%;
+	height: 90px;
+	margin: 0 auto;
+	background-color: #000;
+	color: #fff;
+	position: fixed;
+	display: block;	
+	z-index: 100;
+}
+
+.menu-bar{
+	display:none;
+}
+
+header nav ul{
+	overflow:hidden;
+	list-style:none;
+	text-align: center;
+	margin: 0 auto;
+}
+
+header nav ul li{
+	display:inline;
+	line-height: 90px;
+}
+
+header nav ul li a{
+	color:#fff;
+	padding: 30px;
+	text-decoration: none;	
+	text-align: center;
+	font-family: Calibri Light;
+	font-size: 13pt;
+}
+
+header nav ul li a:hover{
+	padding: 30px;
+	color: #fff;
+	opacity: 0.5;
+}
+
+.logo{
+	opacity: 1;
+}
+
+section{
+	max-width: 100%;
+	height: 100vh;
+	padding: 0;
+	margin: 0;
+}
+
+section::after, section::before{
+	content: 100%;
+	display: table;
+	clear: both;
+}
+
+.header{
+	width: 100%;
+	height: 90px;
+}
+
+.parallax{
+	background: #fff fixed no-repeat 50% 50%;
+	background-size: cover;
+}
+
+#home{
+	background-image: url("../imagens/barber1.jpg");
+}
+
+#sobre{
+	background: #000;
+}
+
+#servicos{
+	background-image: url("../imagens/barber2.jpg");
+}
+
+#contato{
+	background-image: url("../imagens/city1.jpg");
+}
+
+@media screen and (max-width:800px){
+	header nav {
+		width:80%;
+		height:100%;
+		left:-100%;
+		margin:0;
+		position:fixed;
+		z-index:100;
+	}
+	header nav ul li{
+		display:block;
+		float:none;
+		border-bottom:1px solid rgba(255,255,255,.3);
+	}
+	.menu-bar{
+		display:block;
+		width:100%;
+		background:#ccc;
+	}
+	.menu-bar .bt-menu{
+		display:block;
+		cursor:pointer;
+		padding:20px;
+		background:#000;
+		color:#fff;
+		text-decoration:none;
+		font-weight:bold;
+		font-size:25px;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing:border-box;
+	}
+	
+	.menu-bar span{
+		float:right;
+		font-size:40px;
+	}
+		
+}
